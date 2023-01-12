@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+}
+body{
+    padding: 30px;
+    background-color: red;
+}
+.container{
+    background-color: lightskyblue;
+    padding: 2px;
+    border-radius: 10px;
+}
+.col{
+    padding: 40px;
+    background-color: white;
+    color: blueviolet;
+    font-size: 30px;
+    display: inline;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.row{
+    padding: 50px;
+    display:flex;
+    justify-content:space-around;
+    
+}
+.icon{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px;
+}
