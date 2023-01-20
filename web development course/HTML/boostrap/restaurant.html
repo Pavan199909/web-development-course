@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+      .collapse{
+        margin-left: 200px;
+      }
+      .head1{
+        display: inline;
+      }
+      body{
+        padding:10px;
+      }
+      .container1{
+        width: 100%;
+        height: 600px;
+        position: relative;
+        background-image:url("/images/restaurant1.jpg");
+        background-size: cover;
+        
+      }
+      .container2{
+        position: absolute;
+        width: 50%;
+        height: 200px;
+        background-color: white;
+        /* transform:translate(-50%,-50%) */
+        top: 20%;
+        left: 25%;
+        margin: 20px 20px 10px 10px;
+        border: 20px solid lightsteelblue;
+        overflow: hidden;
+      display: inline-block;
+      }
+      .container2{
+        text-align:center;
+      }
+      b{
+        color:coral;
+        
+      }
+      p1{
+        color:darkorange;
+      }
+      .head2{
+        padding:30px;
+        text-align: center;
+      }
+      .row{
+        
+        background-color: white;
+        padding: 20px;
+      }
+      .col-lg{
+        display: flex;
+      }
+      .fw-normal{
+        padding:5px;
+        text-align: center;
+      }
+      .py-3{
+        background-color: rgb(26, 141, 241);
+        color: ;
+      }
+      
+      
+
+    </style>
+   
+  </head>
+  <body>
+    <!-- header-nav part starts -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a style="font-family:Segoe Print;font-size:30px; color:deeppink;" class="navbar-brand" href="#">Food restaurant</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Recipes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Veg</a></li>
+                  <li><a class="dropdown-item" href="#">Non-veg</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Paneer butter masala</a></li>
+                  <li><a class="dropdown-item" href="#">Andhra pappu</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active margin-left:200px" aria-current="page" href="#">Learn/How to</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sensational Sensations</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+            </ul>
+           
+              <button style="background-color: blue;color: aliceblue;" class="btn btn-outline-success" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+       <!-- nav part ends -->
+            <!-- image container -->
+            <div class="container1 img-responsive">
+              
+              <div class="container2 img-responsive">
+              
+                <h1>9<b>Delicious Dishes</b> for food lovers</h1>
+                <p>Indian food is different from rest of the world not only in taste but also in cooking methods. It reflects a perfect blend of various cultures and ages.</p>
+                <button style="background-color:brown;color: aliceblue; border-radius: 20px;" class="btn btn-outline-success" type="submit">Explore Recipes</button>
+              
+                
+              </div>
+            </div>
+            <!-- image container ends -->
+
+            <!-- menu bar starts -->
+          <div class="head2">
+              <h1>Check For <p1>Menu</p1></h1>
+          </div>
+
+
+
+          <div class="row" >
+            <div  class="col-lg-2">
+                <img  src="/images/biryani.jpg" alt="biryani"class="img-responsive " style="width:200px;height:200px;border-radius:20px;">
+              <h5 class="fw-normal">Biryani</h5>
+            </div>
+            <div class="col-lg-2">
+              <img src="/images/fish salad.jpg" alt="fish salad" class="img-responsive img-circle"style="width:200px;height:200px;border-radius:20px">
+            <h5 class="fw-normal">Fish Salad</h5>
+            </div>
+            <div class="col-lg-2">
+              <img src="/images/Drilled meats.jpg" alt="biryani" class="img-responsive img-circle"style="width:200px;height:200px;border-radius:20px">
+            <h5 class="fw-normal">Drilled Meats</h5>
+            </div>
+            <div class="col-lg-2">
+              <img src="/images/french fries.jpg" alt="biryani" class="img-responsive img-circle"style="width:200px;height:200px;border-radius:20px">
+            <h5 class="fw-normal">French Fries</h5>
+            </div>
+            <div class="col-lg-2">
+              <img src="/images/noodles.jpg" alt="biryani" class="img-responsive img-circle"style="width:200px;height:200px;border-radius:20px">
+            <h5 class="fw-normal">Noodles</h5>
+            </div>
+            <div class="col-lg-2">
+              <img src="/images/pizza.jpg" alt="biryani" class="img-responsive img-circle"style="width:200px;height:200px;border-radius:20px">
+            <h5 class="fw-normal">Pizza</h5>
+            </div>
+          
+          </div>
+
+          <!-- card section starts -->
+          <div class="head2">
+            <h1>Recipe <p1>Blogs</p1></h1>
+        </div>
+
+          <div class="row">
+            <div class="col-lg-6 margin-left:20px;">
+              <div class="card" style="width: 700px;">
+                <img src="/images/card image.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 ">
+
+              <div class="card mb-3" style="max-width: 540px;margin-left:20px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/images/biryani.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Biryani</h5>
+                      <p class="card-text">Biryani is a mixed rice dish originating among the Muslims of the Indian subcontinent. It is made with Indian spices, rice, and usually some type of meat or in some cases without any meat, and sometimes, in addition, eggs and potatoes. </p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3" style="max-width: 540px;margin-left:20px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/images/noodles.jpg" class="img-fluid rounded-start" alt="..." style="height:250px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Noodles</h5>
+                      <p class="card-text">Noodles are a type of food made from unleavened dough which is either rolled flat and cut, stretched, or extruded, into long strips or strings.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3" style="max-width: 540px;margin-left:20px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/images/pizza.jpg" class="img-fluid rounded-start" alt="..." style="height:250px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Pizza</h5>
+                      <p class="card-text">Pizza Hut is an American multinational restaurant chain and international franchise founded in 1958</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+        
+
+
+          <!-- card section ends -->
+
+          <!-- footer starts -->
+
+          <footer class="py-3 my-4 ">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2022 Food Restaurant, Inc</p>
+          </footer>
+          <!-- footer ends -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
